@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FB6342F1908A837007D2006 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB6342E1908A837007D2006 /* Foundation.framework */; };
+		7FB634341908A837007D2006 /* YanqiDemo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7FB634331908A837007D2006 /* YanqiDemo.h */; };
+		7FB634361908A837007D2006 /* YanqiDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB634351908A837007D2006 /* YanqiDemo.m */; };
+		7FB6343D1908A837007D2006 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB6343C1908A837007D2006 /* XCTest.framework */; };
+		7FB6343E1908A837007D2006 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB6342E1908A837007D2006 /* Foundation.framework */; };
+		7FB634401908A837007D2006 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB6343F1908A837007D2006 /* UIKit.framework */; };
+		7FB634431908A837007D2006 /* libYanqiDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB6342B1908A837007D2006 /* libYanqiDemo.a */; };
+		7FB634491908A837007D2006 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FB634471908A837007D2006 /* InfoPlist.strings */; };
+		7FB6344B1908A837007D2006 /* YanqiDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB6344A1908A837007D2006 /* YanqiDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FB634411908A837007D2006 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FB634231908A837007D2006 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FB6342A1908A837007D2006;
+			remoteInfo = YanqiDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7FB634291908A837007D2006 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				7FB634341908A837007D2006 /* YanqiDemo.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7FB6342B1908A837007D2006 /* libYanqiDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYanqiDemo.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB6342E1908A837007D2006 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7FB634321908A837007D2006 /* YanqiDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YanqiDemo-Prefix.pch"; sourceTree = "<group>"; };
+		7FB634331908A837007D2006 /* YanqiDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YanqiDemo.h; sourceTree = "<group>"; };
+		7FB634351908A837007D2006 /* YanqiDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YanqiDemo.m; sourceTree = "<group>"; };
+		7FB6343B1908A837007D2006 /* YanqiDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YanqiDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB6343C1908A837007D2006 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7FB6343F1908A837007D2006 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7FB634461908A837007D2006 /* YanqiDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YanqiDemoTests-Info.plist"; sourceTree = "<group>"; };
+		7FB634481908A837007D2006 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7FB6344A1908A837007D2006 /* YanqiDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YanqiDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FB634281908A837007D2006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB6342F1908A837007D2006 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB634381908A837007D2006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB6343D1908A837007D2006 /* XCTest.framework in Frameworks */,
+				7FB634401908A837007D2006 /* UIKit.framework in Frameworks */,
+				7FB6343E1908A837007D2006 /* Foundation.framework in Frameworks */,
+				7FB634431908A837007D2006 /* libYanqiDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FB634221908A837007D2006 = {
+			isa = PBXGroup;
+			children = (
+				7FB634301908A837007D2006 /* YanqiDemo */,
+				7FB634441908A837007D2006 /* YanqiDemoTests */,
+				7FB6342D1908A837007D2006 /* Frameworks */,
+				7FB6342C1908A837007D2006 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FB6342C1908A837007D2006 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FB6342B1908A837007D2006 /* libYanqiDemo.a */,
+				7FB6343B1908A837007D2006 /* YanqiDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FB6342D1908A837007D2006 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FB6342E1908A837007D2006 /* Foundation.framework */,
+				7FB6343C1908A837007D2006 /* XCTest.framework */,
+				7FB6343F1908A837007D2006 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FB634301908A837007D2006 /* YanqiDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7FB634331908A837007D2006 /* YanqiDemo.h */,
+				7FB634351908A837007D2006 /* YanqiDemo.m */,
+				7FB634311908A837007D2006 /* Supporting Files */,
+			);
+			path = YanqiDemo;
+			sourceTree = "<group>";
+		};
+		7FB634311908A837007D2006 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FB634321908A837007D2006 /* YanqiDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FB634441908A837007D2006 /* YanqiDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FB6344A1908A837007D2006 /* YanqiDemoTests.m */,
+				7FB634451908A837007D2006 /* Supporting Files */,
+			);
+			path = YanqiDemoTests;
+			sourceTree = "<group>";
+		};
+		7FB634451908A837007D2006 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FB634461908A837007D2006 /* YanqiDemoTests-Info.plist */,
+				7FB634471908A837007D2006 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FB6342A1908A837007D2006 /* YanqiDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FB6344E1908A837007D2006 /* Build configuration list for PBXNativeTarget "YanqiDemo" */;
+			buildPhases = (
+				7FB634271908A837007D2006 /* Sources */,
+				7FB634281908A837007D2006 /* Frameworks */,
+				7FB634291908A837007D2006 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YanqiDemo;
+			productName = YanqiDemo;
+			productReference = 7FB6342B1908A837007D2006 /* libYanqiDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7FB6343A1908A837007D2006 /* YanqiDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FB634511908A837007D2006 /* Build configuration list for PBXNativeTarget "YanqiDemoTests" */;
+			buildPhases = (
+				7FB634371908A837007D2006 /* Sources */,
+				7FB634381908A837007D2006 /* Frameworks */,
+				7FB634391908A837007D2006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FB634421908A837007D2006 /* PBXTargetDependency */,
+			);
+			name = YanqiDemoTests;
+			productName = YanqiDemoTests;
+			productReference = 7FB6343B1908A837007D2006 /* YanqiDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FB634231908A837007D2006 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Yanqi;
+			};
+			buildConfigurationList = 7FB634261908A837007D2006 /* Build configuration list for PBXProject "YanqiDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7FB634221908A837007D2006;
+			productRefGroup = 7FB6342C1908A837007D2006 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FB6342A1908A837007D2006 /* YanqiDemo */,
+				7FB6343A1908A837007D2006 /* YanqiDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FB634391908A837007D2006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB634491908A837007D2006 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FB634271908A837007D2006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB634361908A837007D2006 /* YanqiDemo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB634371908A837007D2006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB6344B1908A837007D2006 /* YanqiDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FB634421908A837007D2006 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FB6342A1908A837007D2006 /* YanqiDemo */;
+			targetProxy = 7FB634411908A837007D2006 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7FB634471908A837007D2006 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FB634481908A837007D2006 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FB6344C1908A837007D2006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7FB6344D1908A837007D2006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FB6344F1908A837007D2006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/YanqiDemo.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YanqiDemo/YanqiDemo-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7FB634501908A837007D2006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/YanqiDemo.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YanqiDemo/YanqiDemo-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7FB634521908A837007D2006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YanqiDemo/YanqiDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YanqiDemoTests/YanqiDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7FB634531908A837007D2006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YanqiDemo/YanqiDemo-Prefix.pch";
+				INFOPLIST_FILE = "YanqiDemoTests/YanqiDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FB634261908A837007D2006 /* Build configuration list for PBXProject "YanqiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB6344C1908A837007D2006 /* Debug */,
+				7FB6344D1908A837007D2006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FB6344E1908A837007D2006 /* Build configuration list for PBXNativeTarget "YanqiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB6344F1908A837007D2006 /* Debug */,
+				7FB634501908A837007D2006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7FB634511908A837007D2006 /* Build configuration list for PBXNativeTarget "YanqiDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB634521908A837007D2006 /* Debug */,
+				7FB634531908A837007D2006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FB634231908A837007D2006 /* Project object */;
+}
